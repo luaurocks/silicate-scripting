@@ -1,23 +1,25 @@
 # Silicate + Scripting
+This fork only adds the scripting tab.
 
 ## Is this safe?
 This fork is fully open source. You can compare every change against upstream Silicate yourself using Git.
 For maximum trust, review the diff and build from source locally instead of using prebuilt binaries.
 
 ### See what's different between original silicate and this fork
-Install git bash: https://git-scm.com/
-1. Create a folder, open it and open **Git Bash** inside it (right-click in explorer)
-2. Clone this repository (this will copy the code), using the command `git clone https://github.com/luaurocks/silicate-scripting.git` (you can get the link in this repository's page clicking Code and copying git link)
-3. Type `cd silicate-scripting` to navigate to the cloned repository
-4. Add original silicate source code by `git remote add silicate https://git.silicate.dev/silicate/silicate.git`. Then, add the files from it with `git fetch silicate`
-5. Now, you can see the difference between these repositories with `git diff main silicate/main`
+This tutorial will give you all lines changed compared to original Silicate. If you don't know C++, ask whoever or ChatGPT.
+1. Install git bash: https://git-scm.com/
+2. Create a folder, open it and open **Git Bash** inside it (right-click in explorer)
+3. Clone this repository (this will copy the code), using the command `git clone https://github.com/luaurocks/silicate-scripting.git` (you can get the link in this repository's page clicking Code and copying git link)
+4. Type `cd silicate-scripting` to navigate to the cloned repository
+5. Add original silicate source code by `git remote add silicate https://git.silicate.dev/silicate/silicate.git`. Then, add the files from it with `git fetch silicate`
+6. Now, you can see the difference between these repositories with `git diff main silicate/main`
 
 ## Building it yourself
-This repository has **Releases** section. You can download it from there, but be aware that the files are compiled by the owner of this fork. **Always check the commit history to make sure you're not compiling viruses.**
+This repository has **Releases** section. You can download it from there, but be aware that the files are compiled by the owner of this fork. **Commit history is fully public and every change is logged and reviewable.**
 
 ### Preparing to compile
-1. If you haven't cloned this repository, do it (explained above in first 3 steps)
-2. Navigate to lib folder (`cd lib`)
+1. If you haven't cloned this repository, do it (explained above in first 4 steps)
+2. Navigate to lib folder: `cd lib`
 > [!IMPORTANT]
 > Before cloning libraries, make sure they go into lib folder. Otherwise, the compiler wouldn't be able to find them and fail.
 > If you did clone them into the root folder, you can move them to lib (drag or whatever)
