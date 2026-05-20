@@ -1,5 +1,5 @@
 # Silicate + Scripting
-This fork only adds the scripting tab.
+This fork only adds the scripting tab. Scripts are usually stored in `%localappdata%/GeometryDash/geode-persistent/peony.silicate/scripts`.
 
 ## Is this safe?
 This fork is fully open source. You can compare every change against upstream Silicate yourself using Git.
